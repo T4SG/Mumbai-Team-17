@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Codeforgood</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="send_to">Send to&#8230;</string>
+    <string name="button_capture">Capture Image</string>
+    <string name="button_undo">Undo Sticker</string>
+</resources>
