@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>Free HTML5 Templates</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+	  <div id="banner">
+	    <div id="welcome">
+	      <h3>Stories</h3>
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h3>Our Success Stories</h3>
+	    </div><!--close welcome_slogan-->			
+	  </div><!--close banner-->
+    </header>
+
+	<nav>
+	  <div id="menubar">
+        <ul id="nav">
+          <li><a href="index.html">Home</a></li>
+         <a href="ourwork.html">Stories</a></li>
+           <li class="current"><li><a href="testimonials.html">Share ur Story</a></li>
+          <li><a href="projects.html">Events</a></li>
+          <li><a href="contact.html">Login</a></li>
+		  <li><a href="contact.html">Sign up</a></li>
+        </ul>
+      </div><!--close menubar-->	
+	</nav>	
+
+
+
+
+
+<form action="upload2.php" method="post" enctype="multipart/form-data">
+<table>
+<tr>
+<td><h1>Name of Your Story:    </td><h1>
+<td><input type="text" name="title" placeholder="Title, City" class="inputgrp"  required></td></tr>
+<tr>
+<td><h1>Describe your story:   </h1></td><td><textarea name="des" placeholder="Your description" class="inputgrp"  height="150" width="250" required></textarea></td>
+</tr>
+<tr>
+ <td> <h1>  Select image to upload:    </h1></td>
+ <td>
+    <input type="file" name="fileToUpload" id="fileToUpload">
+	</td></tr>
+	<tr><td>
+    <input type="submit" value="Upload Image" name="submit">
+</td></tr>
+	</form>
+</table>
+</body>
+</html>
